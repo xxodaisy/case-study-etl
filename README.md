@@ -16,7 +16,7 @@ hotel-etl-pipeline/
 
 ├── docs/
 
-│   └── technical_documentation.md  # Technical details
+│   └── technical_documentation.md  # Technical details (soon on medium)
 
 └── .gitignore
 
