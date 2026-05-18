@@ -38,16 +38,24 @@ ExtractTask → ValidationTask → TransformTask → LoadTask
 
 # ⚙️ Setup & Installation
 1. Clone repository
-bashgit clone https://github.com/username/hotel-etl-pipeline.git
-cd hotel-etl-pipeline
+```
+git clone https://github.com/xxodaisy/case-study-etl.git
+cd case-study-etl
+```
 
 2. Buat virtual environment
+```python
 python -m venv venv
+```
+```
 venv\Scripts\activate        # Windows
 source venv/bin/activate     # Mac/Linux
+```
 
 3. Install dependencies
+```python
 pip install -r requirements.txt
+```
 
 4. Setup PostgreSQL (Docker)
 Pastikan container PostgreSQL sudah berjalan dengan database pachotel_db.
