@@ -59,11 +59,11 @@ pip install -r requirements.txt
 
 4. Setup PostgreSQL (Docker)
 
-Pastikan container PostgreSQL sudah berjalan dengan database pachotel_db.
+   Pastikan container PostgreSQL sudah berjalan dengan database pachotel_db.
 
 5. Konfigurasi koneksi database
 
-Edit bagian get_engine() di pipeline.py sesuai kredensial database kamu:
+   Edit bagian get_engine() di pipeline.py sesuai kredensial database kamu:
 ```python
 def get_engine():
     return create_engine("postgresql://user:password@localhost:5432/pachotel_db")
