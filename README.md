@@ -61,7 +61,7 @@ pip install -r requirements.txt
 
 Pastikan container PostgreSQL sudah berjalan dengan database pachotel_db.
 
-6. Konfigurasi koneksi database
+5. Konfigurasi koneksi database
 
 Edit bagian get_engine() di pipeline.py sesuai kredensial database kamu:
 ```python
