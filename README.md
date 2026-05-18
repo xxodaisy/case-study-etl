@@ -70,9 +70,11 @@ def get_engine():
 ```
 
 # ▶️ Menjalankan Pipeline
+```python
 python pipeline.py
-Pipeline akan berjalan secara otomatis setiap 2 menit (loop).
-Untuk menghentikan pipeline, tekan Ctrl+C.
+```
+
+Pipeline akan berjalan secara otomatis setiap 2 menit (loop). Untuk menghentikan pipeline, tekan Ctrl+C.
 
 # 🗄️ Output
 Data hasil transformasi akan di-load ke tabel hotel_analysis_table di database hotel_analysis_db dengan skema berikut:
